@@ -1,0 +1,7 @@
+echo "# app" >> README.md
+git init
+git añadir README.md
+git commit -m "primer compromiso"
+git branch -M principal
+git remote add origin https://github.com/esauduribe/app.git
+git push -u origen principal
